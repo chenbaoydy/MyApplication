@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+<RelativeLayout
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="#6BABFF" >
+
+
+    <TextView
+        android:id="@+id/checkresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="校验结果"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkresult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="设备ID"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/deviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+         android:layout_below="@+id/device"
+         android:layout_marginTop="20dp"
+        android:text="设备唯一标识"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+    <LinearLayout 
+        android:id="@+id/virlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/deviceid"
+        android:layout_marginTop="20dp"
+        >
+         <TextView
+        android:id="@+id/isvir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否为虚拟设备:"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/isVirtualDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="虚拟设备"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    </LinearLayout>
+     <LinearLayout 
+         android:id="@+id/safelin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/virlin"
+        android:layout_marginTop="20dp"
+        >
+      <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否安全:"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+         />
+    <TextView
+        android:id="@+id/issafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="issafe"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    </LinearLayout>
+        <TextView
+        android:id="@+id/hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/safelin"
+        android:layout_marginTop="20dp"
+        android:text="隐藏"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/sureBtn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:background="#187BFC"
+        android:text="确定"
+        android:textColor="@color/white" />
+</RelativeLayout>
+   
+</RelativeLayout>

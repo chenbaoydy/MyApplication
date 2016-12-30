@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Identify</string>
+    <string name="hitname">请输入用户名</string>
+    <string name="hitpwd">请输入密码</string>
+    <string name="logfont">登录</string>
+    <string name="accountfont">账号</string>
+    <string name="pwdfont">密码</string>
+</resources>
